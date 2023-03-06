@@ -95,6 +95,12 @@ body {
   min-width: fit-content;
 }
 
+.services-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem 0 4rem;
+}
+
 .service-list {
   padding-left: 2rem;
 }
@@ -104,6 +110,8 @@ body {
   justify-content: center;
   gap: 2rem;
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid black;
 }
 
 .service-photo-container {
@@ -231,6 +239,7 @@ body {
 
   .photo-row {
     flex-direction: column;
+    border: none;
   }
 
   .photo-body {
