@@ -23,7 +23,7 @@ body {
 .body-container {
   display: flex;
   flex-direction: column;
-  margin: 0 20rem 0 20rem;
+  margin: 0 160px 0 160px;
   padding: 0 5rem 0 5rem;
 }
 
@@ -82,6 +82,21 @@ body {
 
 .section-title {
   font-family: "Tilt Prism", cursive;
+  color: #f4e2e7;
+  text-shadow: 1px 1px 10px #3c292e;
+}
+
+.section-text {
+  box-shadow: 40px -16px #88538f;
+  background-color: #3c292e;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #f4e2e7;
+  min-width: fit-content;
+}
+
+.service-list {
+  padding-left: 2rem;
 }
 
 .footer-body {
@@ -94,16 +109,26 @@ body {
 
 .book-button {
   display: flex;
-  border: 1px solid black;
   border-radius: 8px;
   padding: 0.125rem 0.5rem 0.125rem 0.5rem;
-  background-color: black;
+  background-color: #3c292e;
   color: white;
 }
 
-.footer {
+.book-button:hover {
+  background-color: white;
+  color: black;
+}
+
+#footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.contact-me-header {
+  border-bottom: 1.5px solid black;
+  padding: 0 1.25rem 0 1.25rem;
 }
 
 .map-box {
@@ -113,7 +138,12 @@ body {
   align-items: center;
   text-align: center;
   margin-bottom: 2rem;
-  gap: 2rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .body-container {
+    margin: 0 20rem 0 20rem;
+  }
 }
 
 @media screen and (min-width: 1750px) {
@@ -138,6 +168,7 @@ body {
 
   .body-container {
     margin: 0;
+    padding: 0;
   }
 
   .name {
@@ -167,6 +198,10 @@ body {
   .about-me-body {
     width: 75%;
     padding-left: 2rem;
+  }
+
+  .profile-image {
+    height: 200px;
   }
 
   .services-body {
