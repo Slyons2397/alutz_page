@@ -99,6 +99,27 @@ body {
   padding-left: 2rem;
 }
 
+.photo-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service-photo-container {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-photo {
+  height: 350px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
 .footer-body {
   display: flex;
   justify-content: center;
@@ -206,6 +227,10 @@ body {
 
   .services-body {
     padding-left: 2rem;
+  }
+
+  .photo-row {
+    flex-direction: column;
   }
 
   .photo-body {
