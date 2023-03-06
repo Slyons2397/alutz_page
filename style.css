@@ -177,11 +177,11 @@ body {
 
   .mobile-nav {
     display: flex;
-    border-bottom: 1px solid black;
     padding-left: 2rem;
     position: sticky;
     top: 0;
-    background-color: #f0a9bd;
+    background-color: #f4e2e7;
+    box-shadow: 0 3.5px 2px -2px gray;
   }
 
   .nav-links-mobile {
