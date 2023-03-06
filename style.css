@@ -1,0 +1,150 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0 1rem 0 1rem;
+  background-color: #e5e5e5;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20rem 0 20rem;
+  padding: 0 5rem 0 5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  list-style: none;
+  padding: 0 1.5rem 0 1.5rem;
+  border-left: 1px solid black;
+  cursor: pointer;
+}
+
+.nav-link:first-child {
+  border-left: 0;
+}
+
+.header {
+  margin-top: 3rem;
+}
+
+.name {
+  font-size: 3rem;
+  font-family: "Sofia", cursive;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  height: 300px;
+  border-radius: 5px;
+}
+
+.sections {
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  padding-top: 3.5rem;
+}
+
+.footer-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0 2rem 0;
+}
+
+.book-button {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0.125rem 0.5rem 0.125rem 0.5rem;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  .nav {
+    display: none;
+  }
+
+  .body-container {
+    margin: 0;
+  }
+
+  .mobile-nav {
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-left: 2rem;
+    position: sticky;
+    top: 0;
+    background-color: #e5e5e5;
+  }
+
+  .nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .nav-link-mobile {
+    border-left: 0;
+    list-style: none;
+  }
+
+  .header {
+    padding-left: 2rem;
+  }
+
+  .about-me-body {
+    width: 75%;
+    padding-left: 2rem;
+  }
+
+  .services-body {
+    padding-left: 2rem;
+  }
+
+  .photo-body {
+    padding-left: 2rem;
+  }
+
+  .footer-body {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+.hide {
+  height: 0;
+  overflow: hidden;
+}
