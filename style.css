@@ -70,7 +70,8 @@ body {
 }
 
 .profile-image {
-  height: 300px;
+  height: auto;
+  width: 50%;
   border-radius: 5px;
 }
 
@@ -232,7 +233,8 @@ body {
   }
 
   .profile-image {
-    height: 200px;
+    height: auto;
+    width: 50%;
   }
 
   .services-body {
