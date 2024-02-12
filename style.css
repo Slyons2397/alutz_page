@@ -12,8 +12,7 @@ a {
 body {
   margin: 0;
   padding: 0 1rem 0 1rem;
-  background-color: #e5e5e5;
-  background-image: url("./images/edz-norton-s2UUKPH90b0-unsplash.jpg");
+  background-color: #a6b0a7;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -29,8 +28,11 @@ body {
 
 .nav {
   display: flex;
+  position: fixed;
   justify-content: center;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
+  background-color: #e3dac9;
+  border-radius: 1.5px;
 }
 
 .mobile-nav {
@@ -88,8 +90,8 @@ body {
 }
 
 .section-text {
-  box-shadow: 40px -16px #88538f;
-  background-color: #3c292e;
+  box-shadow: 40px -16px #e3dac9;
+  background-color: #4f5550;
   border-radius: 5px;
   padding: 1rem;
   color: #f4e2e7;
@@ -212,7 +214,7 @@ body {
     padding-left: 2rem;
     position: sticky;
     top: 0;
-    background-color: #f4e2e7;
+    background-color: #e3dac9;
     box-shadow: 0 3.5px 2px -2px gray;
   }
 
