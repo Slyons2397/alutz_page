@@ -73,7 +73,7 @@ body {
 
 .profile-image {
   height: auto;
-  width: 50%;
+
   border-radius: 5px;
 }
 
@@ -145,7 +145,7 @@ body {
   display: flex;
   border-radius: 8px;
   padding: 0.125rem 0.5rem 0.125rem 0.5rem;
-  background-color: #3c292e;
+  background-color: #4f5550;
   color: white;
 }
 
